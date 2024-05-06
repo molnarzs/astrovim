@@ -89,6 +89,13 @@ return {
     },
     opts = {
       debug = true, -- Enable debugging
+      window = {
+        layout = "float",
+        relative = "cursor",
+        width = 1,
+        height = 0.4,
+        row = 1,
+      },
       -- See Configuration section for rest
     },
     -- See Commands section for default commands if you want to lazy load on them
