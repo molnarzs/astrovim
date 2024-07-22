@@ -13,7 +13,7 @@ return {
   { import = "astrocommunity.pack.angular" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.python" },
-  { import = "astrocommunity.pack.typescript" },
+  -- { import = "astrocommunity.pack.typescript" } --,
   { import = "astrocommunity.note-taking.obsidian-nvim" },
   { import = "astrocommunity.utility.mason-tool-installer-nvim" },
 }
