@@ -3,6 +3,8 @@
 -- This guarantees that the specs are processed before any user plugins.
 
 ---@type LazySpec
+vim.g.gruvbox_baby_transparent_mode = 1
+
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
